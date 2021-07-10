@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@150&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(99, 99, 99);
+}
+
+html {
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+/* header */
+
+header {
+    height: 4.5rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    background-color: #17b978;
+}
+
+nav {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2rem;
+    font-family: 'Tourney', cursive;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ccebee;
+}
+
+/* main */
+
+.hero-content {
+    background: url(../img/external-content.duckduckgo.com.jpeg) fixed center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.full-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #ccffb8;
+    padding: 5rem 0.8rem;
+}
+
+.second-page-heading {
+    font-size: 3rem;
+    color: rgb(99, 99, 99);
+    text-decoration: underline;
+    text-align: center;
+    padding: 50px;
+}
+
+article p {
+    width: 80%;
+    margin: auto;
+    line-height: 2;
+}
+
+.hero-third-page {
+    background-color: #bafca0;
+    padding: 10%;
+    margin: 0 auto;
+    height: 100%;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+ol li {
+    font-size: 1.5rem;
+    padding-top: 20px;
+}
+
+.para {
+    line-height: 2;
+}
+
+.services, .About {
+    padding: 20%;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.services p, h1, .About p {
+    width: 80%;
+    margin: 0 auto;
+}
+.services p, .About p {
+    padding: 2rem 0rem;
+    line-height: 2;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    padding-left: 50px;
+}
+
+footer h3 {
+    color: antiquewhite;
+}
